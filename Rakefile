@@ -11,5 +11,6 @@ end
 task :scrape_rooms do
 
   atx_scraper = RoomScraper.new('https://austin.craigslist.org/search/sha')
+  atx_scraper.call
 
 end
